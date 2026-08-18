@@ -70,4 +70,29 @@ The model is programmed in **GAMS** and solved using Mixed Integer Programming (
 ├── 3.png                                                          # Optimal Decision Matrix Output
 ├── 4.png                                                          # Final Board Verification
 └── README.md                                                      # Documentation
-Running the Model:Open Grid Puzzle Optimization using Integer Linear Programming.gms in GAMS Studio.Run the model using an available MIP solver (e.g., CPLEX, CBC).Inspect the execution log (.lst file) for the level values of x.L (optimal click matrix) and z.L (minimum total clicks).📸 Visual Verification & ResultsInitial Board SetupMathematical FormulationOptimal Decision Matrix (X∗)Extinguished Board Verification🎓 Academic ContextInstitution: University of TehranFaculty: Caspian FacultyDepartment: Department of Industrial EngineeringCourse: Operations Research & Mathematical OptimizationInstructor: Dr. Yaser Malekian
+```
+### Running the Model:
+1. Open `Grid Puzzle Optimization using Integer Linear Programming.gms` in **GAMS Studio**.
+2. Run the model using an available MIP solver (e.g., **CPLEX**, **CBC**).
+3. Inspect the execution log (`.lst` file) for the level values of `x.L` (optimal click matrix) and `z.L` (minimum total clicks).
+
+---
+
+## 📸 Visual Verification & Results
+
+| Initial Board Setup | Mathematical Formulation |
+| :---: | :---: |
+| ![Initial Board](1.png) | ![Formulation](2.png) |
+
+| Optimal Decision Matrix ($X^*$) | Extinguished Board Verification |
+| :---: | :---: |
+| ![Optimal Solution](3.png) | ![Verification](4.png) |
+
+---
+
+## 🎓 Academic Context
+* **Institution:** University of Tehran
+* **Faculty:** Caspian Faculty
+* **Department:** Department of Industrial Engineering
+* **Course:** Operations Research & Mathematical Optimization
+* **Instructor:** Dr. Yaser Malekian
