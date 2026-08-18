@@ -30,8 +30,13 @@ To prevent out-of-bounds errors on boundary cells without using complex conditio
 ### Parameters & Data
 * $a_{u,v} \in \{0,1\}$: Initial state matrix. Active board configuration ($a_{i,j}$):
 
-$$A = \begin{bmatrix} 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 & 1 \\ 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 & 1 \\ 0 & 0 & 0 & 1 & 0 \end{bmatrix}$$
-
+$$A = \begin{bmatrix} 
+0 & 0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1 & 1 \\ 
+0 & 0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1 & 1 \\ 
+0 & 0 & 0 & 1 & 0 
+\end{bmatrix}$$
 ### Decision Variables
 * $x_{u,v} \in \{0,1\}$: Binary variable; $1$ if cell $(u,v)$ is clicked, $0$ otherwise.
 * $y_{i,j,k} \in \{0,1\}$: Auxiliary binary variable used to linearize the even-sum parity condition.
